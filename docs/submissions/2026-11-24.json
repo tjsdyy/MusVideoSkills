@@ -1,0 +1,112 @@
+{
+  "checked": "2026-11-23/2026-11-24",
+  "timezone": "Asia/Shanghai",
+  "canonical_repository": "https://github.com/tjsdyy/MusVideoSkills",
+  "new_successful_outcomes": 8,
+  "note": "Success means accepted submission except AgentSkill, whose public listing was verified. OpenSkillMarket.com is request intake. Skill.Fish and MCP Market share one queue.",
+  "records": [
+    {
+      "date": "2026-11-23",
+      "site": "agentskill.sh",
+      "status": "published",
+      "url": "https://agentskill.sh/@tjsdyy/musvideo",
+      "confirmation": "1 skill found 1 imported",
+      "verified": "Chrome public detail page: musvideo title, description, install/download controls and canonical GitHub source link visible",
+      "accountCreated": false
+    },
+    {
+      "http_status": 200,
+      "body": "{\"success\":true,\"message\":\"Submitted! You're in the free queue — current wait is ~4–6 weeks.\",\"submission_id\":2516832,\"tier\":\"free\",\"checkout_url\":null}",
+      "source": "https://github.com/knoxgraeme/skillfish/blob/main/src/lib/registry.ts",
+      "route": "official Skillfish free submission API, shared with MCP Market",
+      "payload": {
+        "url": "https://github.com/tjsdyy/MusVideoSkills",
+        "type": "skill"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "site": "AgenticSkills",
+      "url": "https://agenticskills.io/submit",
+      "status": "submitted-pending-review",
+      "confirmation": "Skill Submitted! Your submission is in the review queue. We triage submissions weekly against our published inclusion criteria.",
+      "method": "Chrome form",
+      "author": "MusVideo",
+      "category": "Content & Marketing",
+      "repository": "https://github.com/tjsdyy/MusVideoSkills"
+    },
+    {
+      "date": "2026-11-23",
+      "site": "Skillz.directory",
+      "status": "submitted-pending-review",
+      "confirmation": "Skill Submitted! Thank you for your submission. We will review it and let you know when it is approved.",
+      "url": "https://www.skillz.directory/submit/success",
+      "method": "Chrome form",
+      "repository": "https://github.com/tjsdyy/MusVideoSkills"
+    },
+    {
+      "date": "2026-11-24",
+      "url": "https://agentskills.my/submit/",
+      "status": "submitted-pending-review",
+      "method": "Chrome form",
+      "confirmation": "Submission received! Thanks for contributing. We will review your skill and add it to the directory within a few days.",
+      "evidence": "After clicking Submit Skill, all fields became disabled and success message appeared.",
+      "platforms": [
+        "Claude Code",
+        "Codex"
+      ],
+      "category": "Productivity"
+    },
+    {
+      "date": "2026-11-24",
+      "url": "https://openskillmarket.com/submit",
+      "status": "request-intake-submitted",
+      "method": "Chrome form",
+      "confirmation": "已收到需求。 req_3f10d146-a76b-4103-92ec-5daf872fa9e8",
+      "id": "req_3f10d146-a76b-4103-92ec-5daf872fa9e8",
+      "disclosure": "Submitted as MusVideo maintainer with canonical repo candidate; request intake is not direct listing approval."
+    },
+    {
+      "date": "2026-11-24",
+      "url": "https://agentsuses.com/submit/",
+      "status": "submitted-pending-review",
+      "method": "Chrome form",
+      "confirmation": "Thanks! Your submission is saved. We check every one against our rules, usually within 48 hours.",
+      "reference": "submit_2026-11-23T16_18_12_396Z_7c5fe384",
+      "reference_source": "post-submission optional checkout link; checkout not opened",
+      "payment": false
+    },
+    {
+      "date": "2026-11-24",
+      "url": "https://claudskills.com/#submit",
+      "status": "submitted-pending-review",
+      "method": "Chrome form",
+      "confirmation": "SUBMISSION RECEIVED. Our crawlers will check your repo within 24 hours. If the SKILL.md passes the quality bar, your skill will appear in the registry with full credit to your repo.",
+      "caveat": "Guide requests allowed-tools frontmatter; canonical portable skill intentionally does not preapprove host-dependent tool names. No permissions widened for submission. Acceptance pending."
+    }
+  ],
+  "failed": [
+    {
+      "date": "2026-11-24",
+      "url": "https://aiskill.market/submit",
+      "status": "failed-no-receipt",
+      "method": "Chrome five-step form",
+      "error": "GitHub repository not found. Please contact support.",
+      "localValidation": "Requirement field shortened to <=50 chars; final submit passed local validation and returned server error."
+    }
+  ],
+  "pending_authorization": [
+    {
+      "site": "SkillsLLM",
+      "entry": "https://skillsllm.com/submit",
+      "requested": "GitHub read:user and user:email; no repository scope",
+      "status": "waiting for account-owner confirmation; not authorized"
+    },
+    {
+      "site": "Claude Skills Hub",
+      "entry": "https://claudeskills.info/submit/",
+      "requested": "Google profile and email",
+      "status": "account chooser reached; not authorized"
+    }
+  ]
+}
