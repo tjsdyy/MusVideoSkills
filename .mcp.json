@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "musvideo": {
+      "type": "http",
+      "url": "https://musvideo.ai/api/mcp"
+    }
+  }
+}

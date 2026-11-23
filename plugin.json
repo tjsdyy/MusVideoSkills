@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "musvideo",
+  "version": "0.1.0",
+  "description": "Make music videos with MusVideo: connect your account, agree the story and credit cost, render, and check results.",
+  "author": {
+    "name": "MusVideo",
+    "url": "https://musvideo.ai"
+  },
+  "homepage": "https://musvideo.ai",
+  "repository": "https://github.com/tjsdyy/MusVideoSkills",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "mcp",
+    "music-video",
+    "musvideo"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "MusVideo",
+        "shortDescription": "Turn songs into music videos",
+        "longDescription": "Connect your MusVideo account, import a song, approve the story and render cost, then follow progress and play your finished video.",
+        "developerName": "MusVideo",
+        "category": "Creativity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": "Help me turn my song into a music video with MusVideo."
+      }
+    }
+  }
+}

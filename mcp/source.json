@@ -1,0 +1,9 @@
+{
+  "service": "MusVideo",
+  "endpoint": "https://musvideo.ai/api/mcp",
+  "sourceRevision": "712959ec495d71165fe8bcf0cb362cf40cc73fd0",
+  "sourceLocation": "MusVideo production monorepo (private)",
+  "publicExport": "Skills, client configurations and public MCP discovery only",
+  "schemaSnapshotDate": "2026-11-23",
+  "integrationVersion": "0.1.0"
+}

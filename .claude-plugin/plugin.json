@@ -1,0 +1,17 @@
+{
+  "name": "musvideo",
+  "version": "0.1.0",
+  "description": "Create music videos with MusVideo: sign in, approve the story and cost, and follow the render.",
+  "author": {
+    "name": "MusVideo",
+    "url": "https://musvideo.ai"
+  },
+  "homepage": "https://musvideo.ai",
+  "repository": "https://github.com/tjsdyy/MusVideoSkills",
+  "license": "MIT",
+  "keywords": [
+    "music-video",
+    "mcp",
+    "skills"
+  ]
+}

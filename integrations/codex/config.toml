@@ -1,0 +1,3 @@
+[mcp_servers.musvideo]
+url = "https://musvideo.ai/api/mcp"
+scopes = ["mv.read", "mv.create"]

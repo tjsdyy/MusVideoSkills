@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "musvideo": {
+      "type": "streamable-http",
+      "url": "https://musvideo.ai/api/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "cimd"
+            },
+            "resource": "https://musvideo.ai/api/mcp",
+            "baseScopes": [
+              "mv.read",
+              "mv.create"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "musvideo",
+  "owner": {
+    "name": "MusVideo"
+  },
+  "plugins": [
+    {
+      "name": "musvideo",
+      "source": "./",
+      "description": "MusVideo music video creation skill and remote MCP connection.",
+      "version": "0.1.0"
+    }
+  ],
+  "metadata": {
+    "description": "MusVideo skills and MCP integration for music video creation."
+  }
+}
