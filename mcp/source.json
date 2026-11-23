@@ -5,5 +5,5 @@
   "sourceLocation": "MusVideo production monorepo (private)",
   "publicExport": "Skills, client configurations and public MCP discovery only",
   "schemaSnapshotDate": "2026-11-23",
-  "integrationVersion": "0.1.0"
+  "integrationVersion": "0.1.1"
 }

@@ -8,7 +8,7 @@
       "name": "musvideo",
       "source": "./",
       "description": "MusVideo music video creation skill and remote MCP connection.",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ],
   "metadata": {

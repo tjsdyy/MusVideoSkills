@@ -2,7 +2,7 @@
 
 Turn a song into a music video from your AI assistant: sign in, agree the story, confirm credits, render, then check progress and watch the result.
 
-[中文说明](README.zh-CN.md) · [Download ZIPs](https://github.com/tjsdyy/MusVideoSkills/releases/tag/v0.1.0) · [MusVideo](https://musvideo.ai) · [Connection guide](skills/musvideo/references/connection.md) · [Verification status](docs/verification.md)
+[中文说明](README.zh-CN.md) · [Download ZIPs](https://github.com/tjsdyy/MusVideoSkills/releases/tag/v0.1.1) · [MusVideo](https://musvideo.ai) · [Connection guide](skills/musvideo/references/connection.md) · [Verification status](docs/verification.md)
 
 ## Install the Skill
 

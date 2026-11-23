@@ -2,7 +2,7 @@
 
 在支持 Skills 和 MCP 的 AI 助手里完成：登录 MusVideo → 导入歌曲 → 确认故事 → 确认渲染积分 → 生成 MV → 查看进度和成片。
 
-[下载 Skill / 插件 ZIP](https://github.com/tjsdyy/MusVideoSkills/releases/tag/v0.1.0) · [MCP Registry 已收录](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.tjsdyy%2Fmusvideo/versions/0.1.0)
+[下载 Skill / 插件 ZIP](https://github.com/tjsdyy/MusVideoSkills/releases/tag/v0.1.1) · [MCP Registry 已收录](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.tjsdyy%2Fmusvideo/versions/0.1.0)
 
 ## 安装
 
