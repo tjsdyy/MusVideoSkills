@@ -3,7 +3,7 @@
 - GitHub: this repository is the canonical public distribution source.
 - skills.sh: installable from GitHub with the Skills CLI. Directory visibility and ranking depend on its indexing and actual installation telemetry; no vendor-example-repository PR is required. No rank or inclusion is promised.
 - Claude Code: this repository supplies its own plugin marketplace manifest. This is not Anthropic's official marketplace approval.
-- MCP Registry: **published, active** as `io.github.tjsdyy/musvideo` version `0.1.0` on 2026-11-23. [Registry record](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.tjsdyy%2Fmusvideo/versions/0.1.0) · [successful publication workflow](https://github.com/tjsdyy/MusVideoSkills/actions/runs/45187614334). Published using GitHub OIDC; no stored registry secret is required.
+- MCP Registry: **published, active** as `io.github.tjsdyy/musvideo` version `0.1.1` on 2026-11-23. [Registry record](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.tjsdyy%2Fmusvideo/versions/0.1.1) · [successful publication workflow](https://github.com/tjsdyy/MusVideoSkills/actions/runs/45203665217). Published using GitHub OIDC; no stored registry secret is required.
 - OpenAI: the existing MusVideo ChatGPT public submission is under review as of 2026-11-23. This repository and ZIP do not replace or modify that submitted release.
 - Other directories: no Glama, Cursor, Microsoft or Claude public-directory acceptance is claimed without a receipt. Smithery's former proxy/identity service is not a dependency.
 
@@ -23,3 +23,5 @@ All four submissions use the MusVideo name and public integration files. They di
 The Open Skill Market submission points to this repository so future updates can be indexed from the canonical source. The theskills.directory submission includes a copy of the skill and all referenced files, with the original MIT license and catalog-specific metadata. Its metadata revision 1.0.1 adapts source release v0.1.1; future substantive changes should also be submitted to that catalog copy.
 
 Official submission rules: [MCP.Directory](https://mcp.directory/submit-skill), [Skillstore](https://skillstore.io/submit), [theskills.directory contribution guide](https://github.com/theskillsdirectory/skills/blob/main/CONTRIBUTING.md), [Open Skill Market publishing options](https://github.com/coolzwc/open-skill-market#publishing-your-skill).
+
+Skillstore follow-up: the source patch and request to refresh/re-audit the candidate are recorded in [the existing review PR](https://github.com/aiskillstore/marketplace/pull/4332#issuecomment-7105338567). No duplicate submission was created; the initial audit scanned 0.1.0 and the updated candidate is still subject to maintainer review.
