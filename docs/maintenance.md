@@ -19,3 +19,5 @@ Sources checked on 2026-11-23:
 - [VS Code/Copilot configuration](https://code.visualstudio.com/docs/agents/reference/mcp-configuration)
 - [MCP authorization](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization)
 - [Remote-server registry publication](https://modelcontextprotocol.io/registry/remote-servers)
+
+Registry metadata is published by manually running the `Publish MCP Registry` GitHub workflow on `main`. It checks the live endpoint, verifies the pinned publisher release signature, validates `mcp/server.json`, then uses GitHub OIDC. Increment the manifest version before a new registry release; do not repeatedly publish an unchanged version. A directory entry is discovery metadata, not hosting or a client certification.
